@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact SkinOrSkip — Product Suggestions & Collaborations</title>
+    <meta
+      name="description"
+      content="Get in touch with SkinOrSkip for product suggestions, corrections, or collaboration inquiries about budget skincare for Indian skin and climate."
+    />
+    <link rel="canonical" href="https://skinorskip.com/contact.html" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contact SkinOrSkip" />
+    <meta
+      property="og:description"
+      content="Get in touch with SkinOrSkip for product suggestions, corrections, or collaborations."
+    />
+    <meta property="og:url" content="https://skinorskip.com/contact.html" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Work+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <div id="site-header"></div>
+    <div class="wrap breadcrumb"><a href="/">Home</a> / Contact</div>
+
+    <main>
+      <section class="section" style="padding-top: 24px">
+        <div class="wrap" style="max-width: 640px">
+          <span class="tag">Contact</span>
+          <h1>Let's talk skincare.</h1>
+          <p>
+            Got a product we should test, a correction, or a collaboration idea?
+            Send it over — we read everything.
+          </p>
+
+          <form
+            class="contact-form"
+            style="
+              display: flex;
+              flex-direction: column;
+              gap: 16px;
+              margin-top: 28px;
+            "
+            onsubmit="
+              event.preventDefault();
+              this.querySelector('.form-msg').textContent =
+                'Thanks — we\'ll get back to you soon.';
+              this.reset();
+            "
+          >
+            <div>
+              <label
+                for="name"
+                style="display: block; font-weight: 600; margin-bottom: 6px"
+                >Name</label
+              >
+              <input
+                id="name"
+                name="name"
+                type="text"
+                required
+                style="
+                  width: 100%;
+                  padding: 12px;
+                  border: 1.5px solid var(--ink);
+                  border-radius: 4px;
+                  font-family: var(--font-body);
+                "
+              />
+            </div>
+            <div>
+              <label
+                for="cemail"
+                style="display: block; font-weight: 600; margin-bottom: 6px"
+                >Email</label
+              >
+              <input
+                id="cemail"
+                name="email"
+                type="email"
+                required
+                style="
+                  width: 100%;
+                  padding: 12px;
+                  border: 1.5px solid var(--ink);
+                  border-radius: 4px;
+                  font-family: var(--font-body);
+                "
+              />
+            </div>
+            <div>
+              <label
+                for="message"
+                style="display: block; font-weight: 600; margin-bottom: 6px"
+                >Message</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+                style="
+                  width: 100%;
+                  padding: 12px;
+                  border: 1.5px solid var(--ink);
+                  border-radius: 4px;
+                  font-family: var(--font-body);
+                  resize: vertical;
+                "
+              ></textarea>
+            </div>
+            <button type="submit" class="btn" style="width: fit-content">
+              Send message
+            </button>
+            <p class="form-msg small"></p>
+          </form>
+
+          <p class="small" style="margin-top: 32px; color: var(--ink-soft)">
+            Note: this form is static and doesn't send email yet — connect it to
+            a service like Formspree, EmailJS, or Google Forms once you're ready
+            to go live, or replace it with a direct mailto link.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <div id="site-footer"></div>
+    <script src="/assets/js/partials.js"></script>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>

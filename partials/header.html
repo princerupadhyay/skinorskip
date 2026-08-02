@@ -1,0 +1,121 @@
+<style>
+  .site-header {
+    border-bottom: 2px solid var(--ink) !important;
+    background: var(--paper) !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    z-index: 50 !important;
+  }
+  .site-header .wrap {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+  }
+  .logo img {
+    display: block !important;
+    height: 50px !important;
+    width: auto !important;
+  }
+
+  .category-nav {
+    position: fixed !important;
+    top: 83px !important;
+    left: 0 !important;
+    right: 0 !important;
+    z-index: 49 !important;
+    background: var(--paper-alt) !important;
+    border-bottom: 1px solid var(--line) !important;
+  }
+  .category-nav-inner {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 12px !important;
+    padding: 0px 24px !important;
+    overflow-x: auto !important;
+    white-space: nowrap !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+  .category-nav-inner a {
+    font-family: var(--font-body) !important;
+    text-transform: none !important;
+    letter-spacing: normal !important;
+    font-weight: 600 !important;
+    font-size: 0.85rem !important;
+    color: var(--ink) !important;
+    text-decoration: none !important;
+    padding: 16px 18px !important;
+    border-bottom: 1.5px solid var(--ink) !important;
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+    transition:
+      background 0.15s ease,
+      color 0.15s ease !important;
+  }
+  .category-nav-inner a:hover {
+    background: var(--ink) !important;
+    color: var(--paper) !important;
+  }
+  .category-nav-inner a.active {
+    background: var(--ink) !important;
+    color: var(--paper) !important;
+    border-color: var(--ink) !important;
+  }
+
+  body {
+    padding-top: 135px !important;
+  }
+  .sidebar {
+    top: 151px !important;
+  }
+
+  @media (max-width: 720px) {
+    .category-nav {
+      display: none !important;
+    }
+    .logo img {
+      height: 38px !important;
+    }
+    body {
+      padding-top: 70px !important;
+    }
+    .sidebar {
+      top: 86px !important;
+    }
+    .main-nav {
+      inset: 70px 0 auto 0 !important;
+    }
+  }
+</style>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="/" class="logo"
+      ><img
+        src="/assets/images/logo.png"
+        height="50"
+        width="200"
+        alt="SkinOrSkip"
+    /></a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      ☰
+    </button>
+    <nav class="main-nav">
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<nav class="category-nav" aria-label="Categories">
+  <div class="wrap category-nav-inner">
+    <a href="/category/sunscreen.html">Sunscreen</a>
+    <a href="/category/routines.html">Routines</a>
+    <a href="/category/mens-skincare.html">Men's Skincare</a>
+  </div>
+</nav>
