@@ -22,7 +22,7 @@ window.POSTS = [
     url: "/monsoon-skincare-routine-oily-skin-students.html",
     title: "Monsoon Skincare Routine India: 3 Steps, Under \u20b9650 (2026)",
     excerpt: "The monsoon skincare routine for oily, breakout-prone Indian skin \u2014 3 products, real prices, under \u20b9650 total. Built for students, not dermatologists.",
-    image: "/assets/images/monsoon-skincare-routine-oily-skin-students.png",
+    image: "/assets/images/monsoon-skincare-routine-oily-skin-students.webp",
     category: "Routines",
     categorySlug: "routines",
     tags: ["routine", "students", "budget-picks", "monsoon", "oily-skin"],
