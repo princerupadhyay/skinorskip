@@ -26,16 +26,16 @@
   function postCardHorizontal(post) {
     return (
       '<article class="post-card-horizontal">' +
-        '<a href="' + post.url + '" class="post-card-thumb-link">' +
-          '<img class="post-card-thumb" src="' + post.image + '" alt="' + esc(post.title) + '" loading="lazy">' +
-        '</a>' +
-        '<div class="post-card-body">' +
-          '<a href="' + categoryUrl(post.categorySlug) + '" class="verdict skin post-card-cat">' + esc(post.category) + '</a>' +
-          '<a class="card-link" href="' + post.url + '"><h3>' + esc(post.title) + '</h3></a>' +
-          '<p class="meta">' + post.dateLabel + ' &middot; ' + post.readTime + '</p>' +
-          '<p>' + esc(post.excerpt) + '</p>' +
-          '<a class="card-link" href="' + post.url + '">Read more \u2192</a>' +
-        '</div>' +
+      '<a href="' + post.url + '" class="post-card-thumb-link">' +
+      '<img class="post-card-thumb" src="' + post.image + '" alt="' + esc(post.title) + '" loading="lazy">' +
+      '</a>' +
+      '<div class="post-card-body">' +
+      '<a href="' + categoryUrl(post.categorySlug) + '" class="verdict skin post-card-cat">' + esc(post.category) + '</a>' +
+      '<a class="card-link" href="' + post.url + '"><h3>' + esc(post.title) + '</h3></a>' +
+      '<p class="meta">' + post.dateLabel + ' &middot; ' + post.readTime + '</p>' +
+      '<p>' + esc(post.excerpt) + '</p>' +
+      '<a class="card-link" href="' + post.url + '">Read more \u2192</a>' +
+      '</div>' +
       '</article>'
     );
   }
@@ -58,17 +58,16 @@
     if (!post) { el.remove(); return; }
     el.innerHTML =
       '<article class="featured-post">' +
-        '<a href="' + post.url + '" class="featured-post-thumb-link">' +
-          '<img class="featured-post-thumb" src="' + post.image + '" alt="' + esc(post.title) + '" loading="lazy">' +
-        '</a>' +
-        '<div class="featured-post-body">' +
-          '<span class="tag">Featured</span>' +
-          '<a href="' + categoryUrl(post.categorySlug) + '" class="verdict skin">' + esc(post.category) + '</a>' +
-          '<a class="card-link" href="' + post.url + '"><h2>' + esc(post.title) + '</h2></a>' +
-          '<p class="meta">' + post.dateLabel + ' &middot; ' + post.readTime + '</p>' +
-          '<p>' + esc(post.excerpt) + '</p>' +
-          '<a class="btn" href="' + post.url + '">Read the post</a>' +
-        '</div>' +
+      '<a href="' + post.url + '" class="featured-post-thumb-link">' +
+      '<img class="featured-post-thumb" src="' + post.image + '" alt="' + esc(post.title) + '" loading="lazy">' +
+      '</a>' +
+      '<div class="featured-post-body">' +
+      '<span class="tag">Featured</span>' +
+      '<a class="card-link" href="' + post.url + '"><h2>' + esc(post.title) + '</h2></a>' +
+      '<p class="meta">' + post.dateLabel + ' &middot; ' + post.readTime + '</p>' +
+      '<p>' + esc(post.excerpt) + '</p>' +
+      '<a class="btn" href="' + post.url + '">Read the post</a>' +
+      '</div>' +
       '</article>';
   }
 
@@ -93,11 +92,11 @@
       if (!posts.length) return '';
       return (
         '<div class="category-section">' +
-          '<div class="section-head">' +
-            '<h2 class="mt-0">' + esc(cat.name) + '</h2>' +
-            '<a href="' + cat.url + '" class="small">View all \u2192</a>' +
-          '</div>' +
-          '<div class="post-list-horizontal">' + posts.map(postCardHorizontal).join('') + '</div>' +
+        '<div class="section-head">' +
+        '<h2 class="mt-0">' + esc(cat.name) + '</h2>' +
+        '<a href="' + cat.url + '" class="small">View all \u2192</a>' +
+        '</div>' +
+        '<div class="post-list-horizontal">' + posts.map(postCardHorizontal).join('') + '</div>' +
         '</div>'
       );
     }).join('');
@@ -126,12 +125,12 @@
     el.innerHTML = list.map(function (post, i) {
       return (
         '<a class="popular-post-item" href="' + post.url + '">' +
-          '<span class="popular-post-rank">' + (i + 1) + '</span>' +
-          '<img class="popular-post-thumb" src="' + post.image + '" alt="" loading="lazy">' +
-          '<span class="popular-post-info">' +
-            '<span class="popular-post-title">' + esc(post.title) + '</span>' +
-            '<span class="popular-post-views">' + post.views.toLocaleString('en-IN') + ' views</span>' +
-          '</span>' +
+        '<span class="popular-post-rank">' + (i + 1) + '</span>' +
+        '<img class="popular-post-thumb" src="' + post.image + '" alt="" loading="lazy">' +
+        '<span class="popular-post-info">' +
+        '<span class="popular-post-title">' + esc(post.title) + '</span>' +
+        '<span class="popular-post-views">' + post.views.toLocaleString('en-IN') + ' views</span>' +
+        '</span>' +
         '</a>'
       );
     }).join('');
@@ -192,9 +191,9 @@
     } else if (q) {
       results = POSTS.filter(function (p) {
         return p.title.toLowerCase().indexOf(q) !== -1 ||
-               p.excerpt.toLowerCase().indexOf(q) !== -1 ||
-               (p.tags || []).some(function (t) { return t.indexOf(q) !== -1; }) ||
-               p.category.toLowerCase().indexOf(q) !== -1;
+          p.excerpt.toLowerCase().indexOf(q) !== -1 ||
+          (p.tags || []).some(function (t) { return t.indexOf(q) !== -1; }) ||
+          p.category.toLowerCase().indexOf(q) !== -1;
       });
       if (headingEl) headingEl.textContent = 'Search results for \u201c' + q + '\u201d';
     } else {
