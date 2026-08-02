@@ -31,5 +31,20 @@ window.POSTS = [
     readTime: "7 min read",
     views: 0,
     featured: false
+  },
+  {
+    slug: "2-minute-skincare-routine-men-india",
+    url: "/2-minute-skincare-routine-men-india.html",
+    title: "2-Minute Skincare Routine for Men Under \u20b9520 (India)",
+    excerpt: "A 2-product, 2-minute skincare routine for Indian men \u2014 built for monsoon oily skin, under \u20b9520 total. Real products, real prices, no overwhelm.",
+    image: "/assets/images/2-minute-skincare-routine-men-india.webp",
+    category: "Men's Skincare",
+    categorySlug: "mens-skincare",
+    tags: ["mens-skincare", "routine", "budget-picks", "monsoon", "oily-skin"],
+    date: "2027-08-02",
+    dateLabel: "Aug 2, 2027",
+    readTime: "6 min read",
+    views: 0,
+    featured: false
   }
 ];
