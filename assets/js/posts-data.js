@@ -30,7 +30,7 @@ window.POSTS = [
     dateLabel: "Aug 1, 2027",
     readTime: "7 min read",
     views: 0,
-    featured: false
+    featured: true
   },
   {
     slug: "2-minute-skincare-routine-men-india",
@@ -44,6 +44,21 @@ window.POSTS = [
     date: "2027-08-02",
     dateLabel: "Aug 2, 2027",
     readTime: "6 min read",
+    views: 0,
+    featured: false
+  },
+  {
+    slug: "best-vitamin-c-serum-under-700-india",
+    url: "/best-vitamin-c-serum-under-700-india.html",
+    title: "Best Vitamin C Serum Under ₹700 India — Buy Before Aug 7 Sale",
+    excerpt: "Amazon's Great Freedom Festival opens to everyone on Aug 7 — here's the ₹699 vitamin C serum worth grabbing before it, for monsoon dullness and pollution.",
+    image: "/assets/images/best-vitamin-c-serum-under-700-india.webp",
+    category: "Serums",
+    categorySlug: "serums",
+    tags: ["vitamin-c", "serums", "monsoon", "budget-picks", "students"],
+    date: "2027-08-03",
+    dateLabel: "Aug 3, 2027",
+    readTime: "7 min read",
     views: 0,
     featured: false
   }
