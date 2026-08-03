@@ -11,6 +11,7 @@
    ============================================================ */
 
 window.CATEGORIES = [
+  { name: "Serums", slug: "serums", url: "/category/serums.html" },
   { name: "Sunscreen", slug: "sunscreen", url: "/category/sunscreen.html" },
   { name: "Routines", slug: "routines", url: "/category/routines.html" },
   { name: "Men's Skincare", slug: "mens-skincare", url: "/category/mens-skincare.html" }
