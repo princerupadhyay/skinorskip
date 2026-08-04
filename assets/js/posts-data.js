@@ -62,5 +62,20 @@ window.POSTS = [
     readTime: "7 min read",
     views: 0,
     featured: false
-  }
+  },
+  {
+  slug: "best-face-wash-hostel-guys-india",
+  url: "/best-face-wash-hostel-guys-india.html",
+  title: "Best Face Wash for Hostel Guys in India: ₹259 Fix",
+  excerpt: "Hard hostel water + monsoon oil ruining your skin? Here's the one ₹259 charcoal face wash hostel guys in India actually repurchase.",
+  image: "/assets/images/best-face-wash-hostel-guys-india.webp",
+  category: "Men's Skincare",
+  categorySlug: "mens-skincare",
+  tags: ["mens-skincare", "budget-picks", "monsoon", "oily-skin", "hostel"],
+  date: "2027-08-04",
+  dateLabel: "Aug 4, 2027",
+  readTime: "7 min read",
+  views: 0,
+  featured: false
+}
 ];
