@@ -26,6 +26,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://skinorskip.com/ponds-super-light-gel-neutrogena-dupe-india.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://skinorskip.com/category/sunscreen.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -42,6 +47,11 @@
   </url>
   <url>
     <loc>https://skinorskip.com/category/serums.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://skinorskip.com/category/moisturizers.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>

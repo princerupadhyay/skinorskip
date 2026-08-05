@@ -14,7 +14,8 @@ window.CATEGORIES = [
   { name: "Serums", slug: "serums", url: "/category/serums.html" },
   { name: "Sunscreen", slug: "sunscreen", url: "/category/sunscreen.html" },
   { name: "Routines", slug: "routines", url: "/category/routines.html" },
-  { name: "Men's Skincare", slug: "mens-skincare", url: "/category/mens-skincare.html" }
+  { name: "Men's Skincare", slug: "mens-skincare", url: "/category/mens-skincare.html" },
+  { name: "Moisturizers", slug: "moisturizers", url: "/category/moisturizers.html" }
 ];
 
 window.POSTS = [
@@ -64,18 +65,33 @@ window.POSTS = [
     featured: false
   },
   {
-  slug: "best-face-wash-hostel-guys-india",
-  url: "/best-face-wash-hostel-guys-india.html",
-  title: "Best Face Wash for Hostel Guys in India: ₹259 Fix",
-  excerpt: "Hard hostel water + monsoon oil ruining your skin? Here's the one ₹259 charcoal face wash hostel guys in India actually repurchase.",
-  image: "/assets/images/best-face-wash-hostel-guys-india.webp",
-  category: "Men's Skincare",
-  categorySlug: "mens-skincare",
-  tags: ["mens-skincare", "budget-picks", "monsoon", "oily-skin", "hostel"],
-  date: "2027-08-04",
-  dateLabel: "Aug 4, 2027",
-  readTime: "7 min read",
-  views: 0,
-  featured: false
-}
+    slug: "best-face-wash-hostel-guys-india",
+    url: "/best-face-wash-hostel-guys-india.html",
+    title: "Best Face Wash for Hostel Guys in India: ₹259 Fix",
+    excerpt: "Hard hostel water + monsoon oil ruining your skin? Here's the one ₹259 charcoal face wash hostel guys in India actually repurchase.",
+    image: "/assets/images/best-face-wash-hostel-guys-india.webp",
+    category: "Men's Skincare",
+    categorySlug: "mens-skincare",
+    tags: ["mens-skincare", "budget-picks", "monsoon", "oily-skin", "hostel"],
+    date: "2027-08-04",
+    dateLabel: "Aug 4, 2027",
+    readTime: "7 min read",
+    views: 0,
+    featured: false
+  },
+  {
+    slug: "ponds-super-light-gel-neutrogena-dupe-india",
+    url: "/ponds-super-light-gel-neutrogena-dupe-india.html",
+    title: "Pond's Super Light Gel vs Neutrogena Hydro Boost: Which One's Worth Your Money?",
+    excerpt: "Neutrogena Hydro Boost dupe in India: Pond's Super Light Gel matches the hyaluronic acid formula for under ₹300.",
+    image: "/assets/images/ponds-super-light-gel-neutrogena-dupe-india.webp",
+    category: "Moisturizers",
+    categorySlug: "moisturizers",
+    tags: ["dupes", "moisturizer", "budget-picks", "hyaluronic-acid", "worth-it-wednesday"],
+    date: "2027-08-05",
+    dateLabel: "Aug 5, 2027",
+    readTime: "8 min read",
+    views: 0,
+    featured: false
+  }
 ];
