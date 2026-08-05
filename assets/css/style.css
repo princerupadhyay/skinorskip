@@ -67,8 +67,8 @@ img {
   display: block;
 }
 a {
-  color: var(--skin-green-dark);
-  text-decoration-thickness: 1.5px;
+  color: var(--skip-red);
+  text-decoration-thickness: 3px;
   text-decoration: none;
 }
 a:hover {
