@@ -93,5 +93,20 @@ window.POSTS = [
     readTime: "8 min read",
     views: 0,
     featured: false
+  },
+  {
+    slug: "mens-grooming-essentials-under-1000-amazon-sale",
+    url: "/mens-grooming-essentials-under-1000-amazon-sale.html",
+    title: "5 Men's Grooming Essentials to Buy in Amazon's Aug 7 Freedom Sale (Under ₹1000)",
+    excerpt: "5 real grooming products for guys — face wash, sunscreen, moisturizer, lip balm, and a mask — all under ₹1000 total, priced individually before Amazon's Aug 7 Freedom Sale.",
+    image: "/assets/images/mens-grooming-essentials-under-1000-amazon-sale.webp",
+    category: "Men's Skincare",
+    categorySlug: "mens-skincare",
+    tags: ["mens-skincare", "grooming", "budget-picks", "oily-skin"],
+    date: "2027-08-06",
+    dateLabel: "Aug 6, 2027",
+    readTime: "8 min read",
+    views: 0,
+    featured: false
   }
 ];
