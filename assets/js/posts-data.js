@@ -15,7 +15,8 @@ window.CATEGORIES = [
   { name: "Sunscreen", slug: "sunscreen", url: "/category/sunscreen.html" },
   { name: "Routines", slug: "routines", url: "/category/routines.html" },
   { name: "Men's Skincare", slug: "mens-skincare", url: "/category/mens-skincare.html" },
-  { name: "Moisturizers", slug: "moisturizers", url: "/category/moisturizers.html" }
+  { name: "Moisturizers", slug: "moisturizers", url: "/category/moisturizers.html" },
+  { name: "Eye Care", slug: "eye-care", url: "/category/eye-care.html" }
 ];
 
 window.POSTS = [
@@ -29,7 +30,7 @@ window.POSTS = [
     categorySlug: "routines",
     tags: ["routine", "students", "budget-picks", "monsoon", "oily-skin"],
     date: "2027-08-01",
-    dateLabel: "Aug 1, 2027",
+    dateLabel: "Aug 1, 2026",
     readTime: "7 min read",
     views: 0,
     featured: true
@@ -44,7 +45,7 @@ window.POSTS = [
     categorySlug: "mens-skincare",
     tags: ["mens-skincare", "routine", "budget-picks", "monsoon", "oily-skin"],
     date: "2027-08-02",
-    dateLabel: "Aug 2, 2027",
+    dateLabel: "Aug 2, 2026",
     readTime: "6 min read",
     views: 0,
     featured: false
@@ -59,7 +60,7 @@ window.POSTS = [
     categorySlug: "serums",
     tags: ["vitamin-c", "serums", "monsoon", "budget-picks", "students"],
     date: "2027-08-03",
-    dateLabel: "Aug 3, 2027",
+    dateLabel: "Aug 3, 2026",
     readTime: "7 min read",
     views: 0,
     featured: false
@@ -74,7 +75,7 @@ window.POSTS = [
     categorySlug: "mens-skincare",
     tags: ["mens-skincare", "budget-picks", "monsoon", "oily-skin", "hostel"],
     date: "2027-08-04",
-    dateLabel: "Aug 4, 2027",
+    dateLabel: "Aug 4, 2026",
     readTime: "7 min read",
     views: 0,
     featured: false
@@ -89,7 +90,7 @@ window.POSTS = [
     categorySlug: "moisturizers",
     tags: ["dupes", "moisturizer", "budget-picks", "hyaluronic-acid", "worth-it-wednesday"],
     date: "2027-08-05",
-    dateLabel: "Aug 5, 2027",
+    dateLabel: "Aug 5, 2026",
     readTime: "8 min read",
     views: 0,
     featured: false
@@ -104,7 +105,22 @@ window.POSTS = [
     categorySlug: "mens-skincare",
     tags: ["mens-skincare", "grooming", "budget-picks", "oily-skin"],
     date: "2027-08-06",
-    dateLabel: "Aug 6, 2027",
+    dateLabel: "Aug 6, 2026",
+    readTime: "8 min read",
+    views: 0,
+    featured: false
+  },
+  {
+    slug: "4-under-eye-cream-checklist-india",
+    url: "/4-under-eye-cream-checklist-india.html",
+    title: "4 Things to Check Before Buying An Under-Eye Cream in India",
+    excerpt: "A 4-point checklist for under-eye cream shopping in India — active %, price-per-gram, and humidity fit, tested against a ₹449 pick.",
+    image: "/assets/images/4-under-eye-cream-checklist-india.webp",
+    category: "Eye Care",
+    categorySlug: "eye-care",
+    tags: ["eye-cream", "exam-season", "dark-circles", "before-you-buy", "budget-picks", "students"],
+    date: "2027-08-07",
+    dateLabel: "Aug 7, 2026",
     readTime: "8 min read",
     views: 0,
     featured: false
