@@ -103,9 +103,11 @@ p {
 }
 
 .wrap {
+  width: 100%;
   max-width: var(--max-w);
   margin: 0 auto;
   padding: 0 24px;
+  box-sizing: border-box;
 }
 
 /* ---------- Header ---------- */
@@ -908,4 +910,18 @@ p {
 .simple-page-body {
   max-width: none;
   padding-top: 0;
+}
+
+@media (max-width: 900px) {
+  .layout-with-sidebar {
+    display: block !important;
+  }
+  .sidebar {
+    width: 100% !important;
+    position: static !important;
+  }
+  .sidebar-widget {
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
 }
