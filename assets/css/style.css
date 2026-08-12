@@ -917,6 +917,7 @@ p {
     display: block !important;
   }
   .sidebar {
+    margin-top: 25px !important;
     width: 100% !important;
     position: static !important;
   }

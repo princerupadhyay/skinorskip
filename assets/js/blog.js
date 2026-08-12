@@ -62,7 +62,7 @@
       '<img class="featured-post-thumb" src="' + post.image + '" alt="' + esc(post.title) + '" loading="lazy">' +
       '</a>' +
       '<div class="featured-post-body">' +
-      '<span class="tag">Featured</span>' +
+      '<span class="tag" style="background-color: #2b4d38;  color: #fff; padding: 0.25rem 0.5rem; border-radius: 0.25rem;">Featured</span>' +
       '<a class="card-link" href="' + post.url + '"><h2>' + esc(post.title) + '</h2></a>' +
       '<p class="meta">' + post.dateLabel + ' &middot; ' + post.readTime + '</p>' +
       '<p>' + esc(post.excerpt) + '</p>' +
