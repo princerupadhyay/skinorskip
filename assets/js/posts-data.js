@@ -79,5 +79,20 @@ window.POSTS = [
     readTime: "7 min read",
     views: 0,
     featured: false
+  },
+  {
+    slug: "hard-water-skincare-routine-india",
+    url: "/hard-water-skincare-routine-india.html",
+    title: "Hard Water Skincare Routine India: 3-Step Fix Under ₹800",
+    excerpt: "Dull, tight skin despite a good routine? Hard water in Bangalore, Delhi & Chennai could be why — here's the 3-step budget fix.",
+    image: "/assets/images/hard-water-skincare-routine-india.webp",
+    category: "Routines",
+    categorySlug: "routines",
+    tags: ["routine", "budget-picks", "hard-water", "students"],
+    date: "2026-08-11",
+    dateLabel: "Aug 11, 2026",
+    readTime: "7 min read",
+    views: 0,
+    featured: false
   }
 ];
