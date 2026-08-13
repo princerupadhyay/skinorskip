@@ -94,5 +94,20 @@ window.POSTS = [
     readTime: "7 min read",
     views: 0,
     featured: false
+  },
+  {
+    slug: "5-minute-skincare-routine-lawyers-india",
+    url: "/5-minute-skincare-routine-lawyers-india.html",
+    title: "The 5-Minute Skincare Routine Every Busy Lawyer in India Needs",
+    excerpt: "A 3-product Ustraa routine built for busy Indian professionals \u2014 5 minutes, under \u20b91,100, shine-free before court or a client call.",
+    image: "/assets/images/5-minute-skincare-routine-lawyers-india.webp",
+    category: "Men's Skincare",
+    categorySlug: "mens-skincare",
+    tags: ["routine", "mens-skincare", "budget-picks", "oily-skin", "office"],
+    date: "2026-08-13",
+    dateLabel: "Aug 13, 2026",
+    readTime: "9 min read",
+    views: 0,
+    featured: false
   }
 ];
