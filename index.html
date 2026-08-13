@@ -144,6 +144,36 @@
                 </div>
               </div>
               <div id="latest-posts"></div>
+              <div
+                id="latest-posts-pagination"
+                style="
+                  display: none;
+                  justify-content: center;
+                  align-items: center;
+                  gap: 16px;
+                  margin-top: 24px;
+                "
+              >
+                <button
+                  id="latest-posts-prev"
+                  class="btn btn-outline"
+                  type="button"
+                >
+                  ← Previous
+                </button>
+                <span
+                  id="latest-posts-page-indicator"
+                  class="small"
+                  style="opacity: 0.7"
+                ></span>
+                <button
+                  id="latest-posts-next"
+                  class="btn btn-outline"
+                  type="button"
+                >
+                  Next →
+                </button>
+              </div>
             </div>
 
             <div id="home-search-view" style="display: none">
@@ -227,14 +257,68 @@
             "search-heading",
           );
         } else {
+          var LATEST_PAGE_SIZE = 6;
+          var latestPage = 0;
           var featured = (window.POSTS || []).filter(function (p) {
             return p.featured;
           })[0];
-          SkinOrSkipBlog.renderFeatured("featured-post");
-          SkinOrSkipBlog.renderLatest("latest-posts", {
-            excludeSlug: featured ? featured.slug : null,
-            limit: 6,
+          var latestExcludeSlug = featured ? featured.slug : null;
+
+          var prevBtn = document.getElementById("latest-posts-prev");
+          var nextBtn = document.getElementById("latest-posts-next");
+          var paginationEl = document.getElementById("latest-posts-pagination");
+          var pageIndicatorEl = document.getElementById(
+            "latest-posts-page-indicator",
+          );
+          var latestPostsEl = document.getElementById("latest-posts");
+
+          function setButtonState(btn, disabled) {
+            btn.disabled = disabled;
+            btn.style.opacity = disabled ? "0.4" : "1";
+            btn.style.cursor = disabled ? "not-allowed" : "pointer";
+            btn.style.pointerEvents = disabled ? "none" : "auto";
+          }
+
+          function renderLatestPage() {
+            var total = SkinOrSkipBlog.renderLatest("latest-posts", {
+              excludeSlug: latestExcludeSlug,
+              limit: LATEST_PAGE_SIZE,
+              offset: latestPage * LATEST_PAGE_SIZE,
+            });
+            var totalPages = Math.max(1, Math.ceil(total / LATEST_PAGE_SIZE));
+
+            if (total > LATEST_PAGE_SIZE) {
+              paginationEl.style.display = "flex";
+              setButtonState(prevBtn, latestPage === 0);
+              setButtonState(nextBtn, latestPage >= totalPages - 1);
+              pageIndicatorEl.textContent =
+                "Page " + (latestPage + 1) + " of " + totalPages;
+            } else {
+              paginationEl.style.display = "none";
+            }
+          }
+
+          prevBtn.addEventListener("click", function () {
+            if (latestPage === 0) return;
+            latestPage -= 1;
+            renderLatestPage();
+            latestPostsEl.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
           });
+
+          nextBtn.addEventListener("click", function () {
+            latestPage += 1;
+            renderLatestPage();
+            latestPostsEl.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          });
+
+          SkinOrSkipBlog.renderFeatured("featured-post");
+          renderLatestPage();
           SkinOrSkipBlog.renderCategorySections("category-sections");
         }
       });

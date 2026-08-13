@@ -72,15 +72,24 @@
   }
 
   // ---------- Latest posts grid ----------
+  // opts.offset lets a caller page through results (e.g. Next/Prev
+  // controls on the homepage) without changing the default behavior
+  // for existing callers that only pass excludeSlug/limit.
+  // Returns the total number of matching posts (after excludeSlug,
+  // before offset/limit) so callers can decide whether to show
+  // pagination controls and how many pages there are.
   function renderLatest(containerId, opts) {
     var el = document.getElementById(containerId);
-    if (!el) return;
+    if (!el) return 0;
     opts = opts || {};
     var list = sortedByDate(POSTS);
     if (opts.excludeSlug) list = list.filter(function (p) { return p.slug !== opts.excludeSlug; });
+    var total = list.length;
+    if (opts.offset) list = list.slice(opts.offset);
     if (opts.limit) list = list.slice(0, opts.limit);
-    if (!list.length) { el.innerHTML = '<p>No posts yet \u2014 check back soon.</p>'; return; }
+    if (!list.length) { el.innerHTML = '<p>No posts yet \u2014 check back soon.</p>'; return total; }
     el.innerHTML = '<div class="post-list-horizontal">' + list.map(postCardHorizontal).join('') + '</div>';
+    return total;
   }
 
   // ---------- Category sections on homepage ----------
