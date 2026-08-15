@@ -109,5 +109,20 @@ window.POSTS = [
     readTime: "9 min read",
     views: 0,
     featured: false
+  },
+  {
+    slug: "3-minute-skincare-routine-nurses-india",
+    url: "/3-minute-skincare-routine-nurses-india.html",
+    title: "3-Minute Skincare Routine for Nurses in India (2026)",
+    excerpt: "A 2-product, fragrance-free routine built for 12-hour mask shifts \u2014 gentle, fast, and under \u20b9600 total.",
+    image: "/assets/images/3-minute-skincare-routine-nurses-india.webp",
+    category: "Routines",
+    categorySlug: "routines",
+    tags: ["routine", "budget-picks", "nurses"],
+    date: "2026-08-14",
+    dateLabel: "Aug 14, 2026",
+    readTime: "8 min read",
+    views: 0,
+    featured: false
   }
 ];
