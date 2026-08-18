@@ -124,5 +124,35 @@ window.POSTS = [
     readTime: "8 min read",
     views: 0,
     featured: false
+  },
+  {
+    slug: "5-minute-skincare-routine-cab-drivers-india",
+    url: "/5-minute-skincare-routine-cab-drivers-india.html",
+    title: "5-Minute Skincare Routine for Cab Drivers in India (2026)",
+    excerpt: "A 3-step, sink-free routine for cab, auto & delivery drivers \u2014 sun, oil, and pollution sorted in 5 minutes, under \u20b9800.",
+    image: "/assets/images/5-minute-skincare-routine-cab-drivers-india.webp",
+    category: "Men's Skincare",
+    categorySlug: "mens-skincare",
+    tags: ["routine", "mens-skincare", "budget-picks", "oily-skin", "drivers"],
+    date: "2026-08-15",
+    dateLabel: "Aug 15, 2026",
+    readTime: "9 min read",
+    views: 0,
+    featured: false
+  },
+  {
+    slug: "pre-wedding-skincare-essentials-indian-brides",
+    url: "/pre-wedding-skincare-essentials-indian-brides.html",
+    title: "4 Pre-Wedding Skincare Essentials for Indian Brides (2026)",
+    excerpt: "Skip the \u20b920,000 bridal package \u2014 4 real products and a week-by-week timeline, under \u20b91,750 total.",
+    image: "/assets/images/pre-wedding-skincare-essentials-indian-brides.webp",
+    category: "Routines",
+    categorySlug: "routines",
+    tags: ["essentials", "budget-picks", "bridal"],
+    date: "2026-08-16",
+    dateLabel: "Aug 16, 2026",
+    readTime: "9 min read",
+    views: 0,
+    featured: false
   }
 ];
