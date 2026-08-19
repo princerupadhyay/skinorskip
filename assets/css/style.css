@@ -291,6 +291,11 @@ p {
   text-decoration: none;
   cursor: pointer;
 }
+@media (max-width: 780px) {
+  .btn {
+    padding: 10px 15px;
+  }
+}
 .btn:hover {
   background: var(--paper);
   color: var(--ink);
