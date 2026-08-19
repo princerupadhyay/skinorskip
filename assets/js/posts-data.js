@@ -154,5 +154,20 @@ window.POSTS = [
     readTime: "9 min read",
     views: 0,
     featured: false
+  },
+  {
+    slug: "pre-wedding-skincare-essentials-indian-grooms",
+    url: "/pre-wedding-skincare-essentials-indian-grooms.html",
+    title: "4 Pre-Wedding Skincare Essentials for Indian Grooms (2026)",
+    excerpt: "No salon package, no 10-step routine \u2014 4 real products and a week-by-week timeline for grooms, under \u20b91,400 total.",
+    image: "/assets/images/pre-wedding-skincare-essentials-indian-grooms.webp",
+    category: "Men's Skincare",
+    categorySlug: "mens-skincare",
+    tags: ["essentials", "budget-picks", "mens-skincare", "bridal"],
+    date: "2026-08-17",
+    dateLabel: "Aug 17, 2026",
+    readTime: "9 min read",
+    views: 0,
+    featured: false
   }
 ];
