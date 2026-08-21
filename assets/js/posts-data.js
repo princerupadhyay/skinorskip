@@ -169,5 +169,20 @@ window.POSTS = [
     readTime: "9 min read",
     views: 0,
     featured: false
+  },
+  {
+    slug: "3-minute-skincare-routine-flight-attendants-india",
+    url: "/3-minute-skincare-routine-flight-attendants-india.html",
+    title: "3-Minute Skincare Routine for Flight Attendants in India (2026)",
+    excerpt: "A 3-product barrier-repair routine for Indian cabin crew \u2014 built for 8-12 hours of near-zero cabin humidity, around \u20b9893 total.",
+    image: "/assets/images/3-minute-skincare-routine-flight-attendants-india.webp",
+    category: "Routines",
+    categorySlug: "routines",
+    tags: ["routine", "budget-picks", "cabin-crew"],
+    date: "2026-08-18",
+    dateLabel: "Aug 18, 2026",
+    readTime: "8 min read",
+    views: 0,
+    featured: false
   }
 ];
