@@ -184,5 +184,20 @@ window.POSTS = [
     readTime: "8 min read",
     views: 0,
     featured: false
-  }
+  },
+  {
+  slug: "3-minute-skincare-routine-it-guys-india",
+  url: "/3-minute-skincare-routine-it-guys-india.html",
+  title: "3-Minute Skincare Routine for IT & Office Guys in India (2026)",
+  excerpt: "A 2-product routine for Indian desk workers \u2014 stops video-call shine and AC dryness, under \u20b9600 total.",
+  image: "/assets/images/3-minute-skincare-routine-it-guys-india.webp",
+  category: "Men's Skincare",
+  categorySlug: "mens-skincare",
+  tags: ["routine", "mens-skincare", "budget-picks", "oily-skin", "office"],
+  date: "2026-08-19",
+  dateLabel: "Aug 19, 2026",
+  readTime: "8 min read",
+  views: 0,
+  featured: false
+}
 ];
