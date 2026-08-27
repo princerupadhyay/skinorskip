@@ -186,18 +186,33 @@ window.POSTS = [
     featured: false
   },
   {
-  slug: "3-minute-skincare-routine-it-guys-india",
-  url: "/3-minute-skincare-routine-it-guys-india.html",
-  title: "3-Minute Skincare Routine for IT & Office Guys in India (2026)",
-  excerpt: "A 2-product routine for Indian desk workers \u2014 stops video-call shine and AC dryness, under \u20b9600 total.",
-  image: "/assets/images/3-minute-skincare-routine-it-guys-india.webp",
-  category: "Men's Skincare",
-  categorySlug: "mens-skincare",
-  tags: ["routine", "mens-skincare", "budget-picks", "oily-skin", "office"],
-  date: "2026-08-19",
-  dateLabel: "Aug 19, 2026",
-  readTime: "8 min read",
-  views: 0,
-  featured: false
-}
+    slug: "3-minute-skincare-routine-it-guys-india",
+    url: "/3-minute-skincare-routine-it-guys-india.html",
+    title: "3-Minute Skincare Routine for IT & Office Guys in India (2026)",
+    excerpt: "A 2-product routine for Indian desk workers \u2014 stops video-call shine and AC dryness, under \u20b9600 total.",
+    image: "/assets/images/3-minute-skincare-routine-it-guys-india.webp",
+    category: "Men's Skincare",
+    categorySlug: "mens-skincare",
+    tags: ["routine", "mens-skincare", "budget-picks", "oily-skin", "office"],
+    date: "2026-08-19",
+    dateLabel: "Aug 19, 2026",
+    readTime: "8 min read",
+    views: 0,
+    featured: false
+  },
+  {
+    slug: "3-minute-skincare-routine-teachers-india",
+    url: "/3-minute-skincare-routine-teachers-india.html",
+    title: "3-Minute Skincare Routine for Teachers in India (2026)",
+    excerpt: "A 2-product routine for Indian teachers \u2014 handles chalk dust and AC classroom dryness, under \u20b9700 total.",
+    image: "/assets/images/3-minute-skincare-routine-teachers-india.webp",
+    category: "Routines",
+    categorySlug: "routines",
+    tags: ["routine", "budget-picks", "teachers"],
+    date: "2026-08-20",
+    dateLabel: "Aug 20, 2026",
+    readTime: "8 min read",
+    views: 0,
+    featured: false
+  }
 ];
