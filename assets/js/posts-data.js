@@ -260,19 +260,4 @@ window.POSTS = [
     views: 0,
     featured: false
   },
-  {
-    slug: "pimple-myths-guys-still-believe",
-    url: "/pimple-myths-guys-still-believe.html",
-    title: "3 Pimple Myths Guys Still Believe in 2026 (And What Works)",
-    excerpt: "Ice, toothpaste, and dry-shaving won't clear a pimple \u2014 here's why, and the one \u20b9249 product that actually helps.",
-    image: "/assets/images/pimple-myths-guys-still-believe.webp",
-    category: "Men's Skincare",
-    categorySlug: "mens-skincare",
-    tags: ["mens-skincare", "budget-picks", "myth-vs-fact", "acne"],
-    date: "2026-08-24",
-    dateLabel: "Aug 24, 2026",
-    readTime: "7 min read",
-    views: 0,
-    featured: false
-  }
 ];
