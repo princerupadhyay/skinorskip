@@ -260,4 +260,19 @@ window.POSTS = [
     views: 0,
     featured: false
   },
+  {
+    slug: "ganeshotsav-skincare-survival-kit-10-days",
+    url: "/ganeshotsav-skincare-survival-kit-10-days.html",
+    title: "10-Day Ganeshotsav Skincare Survival Kit for Girls (2026)",
+    excerpt: "A 2-product day-night routine that survives 10 days of incense smoke and hosting \u2014 under \u20b9800 total.",
+    image: "/assets/images/ganeshotsav-skincare-survival-kit-10-days.webp",
+    category: "Routines",
+    categorySlug: "routines",
+    tags: ["routine", "budget-picks", "festival"],
+    date: "2026-09-10",
+    dateLabel: "Sep 10, 2026",
+    readTime: "8 min read",
+    views: 0,
+    featured: false
+  }
 ];
