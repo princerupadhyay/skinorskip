@@ -11,15 +11,26 @@
    ============================================================ */
 
 window.CATEGORIES = [
-  { name: "Serums", slug: "serums", url: "/category/serums.html" },
-  { name: "Sunscreen", slug: "sunscreen", url: "/category/sunscreen.html" },
   { name: "Routines", slug: "routines", url: "/category/routines.html" },
-  { name: "Men's Skincare", slug: "mens-skincare", url: "/category/mens-skincare.html" },
-  { name: "Moisturizers", slug: "moisturizers", url: "/category/moisturizers.html" },
-  { name: "Eye Care", slug: "eye-care", url: "/category/eye-care.html" }
+  { name: "Men's Skincare", slug: "mens-skincare", url: "/category/mens-skincare.html" }
 ];
 
 window.POSTS = [
+  {
+    slug: "diwali-party-ready-skincare-men-india",
+    url: "/diwali-party-ready-skincare-men-india.html",
+    title: "Diwali Party-Ready Skincare for Men in India (2026)",
+    excerpt: "A 2-product, 3-minute Diwali routine for men — de-tan the night before, refresh right before you leave, under ₹750.",
+    image: "/assets/images/diwali-party-ready-skincare-men-india.webp",
+    category: "Men's Skincare",
+    categorySlug: "mens-skincare",
+    tags: ["festival", "mens-skincare", "budget-picks", "grooming"],
+    date: "2026-10-25",
+    dateLabel: "Oct 25, 2026",
+    readTime: "8 min read",
+    views: 0,
+    featured: false
+  },
   {
     slug: "monsoon-skincare-routine-oily-skin-students",
     url: "/monsoon-skincare-routine-oily-skin-students.html",
